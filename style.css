@@ -42,3 +42,19 @@ body {
     text-shadow: 0 0 10px #0ef  ;
     transform: rotate(calc(var(--index) * -30deg));
 }
+
+.hands-box {
+    position: relative;
+}
+
+.hands-box .hours {
+    width: 320px;
+    height: 320px;
+    border: 2px solid red;
+}
+
+.hands-box .minutes {
+    width: 450px;
+    height: 450px;
+    border: 2px solid yellow;
+}
