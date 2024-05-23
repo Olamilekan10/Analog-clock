@@ -18,6 +18,9 @@ body {
     width: 500px;
     height: 500px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .number-hours {
@@ -45,6 +48,14 @@ body {
 
 .hands-box {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hands-box .hand {
+    position: absolute;
+    border-radius: 50%;
 }
 
 .hands-box .hours {
@@ -57,4 +68,10 @@ body {
     width: 450px;
     height: 450px;
     border: 2px solid yellow;
+}
+
+.hands-box .seconds {
+    width: 480px;
+    height: 480px;
+    border: 2px solid white;
 }
