@@ -27,11 +27,14 @@ body {
     border-radius: 50%;
 }
 
-..number-hours span {
+.number-hours span {
     position: absolute;
-    transform: rotate(calc(var()));
+    /* 360deg / 12 = 30deg */
+    transform: rotate(calc(var(--index) * 30deg));
+    inset: 6px;
 }
 
 .number-hours span p {
     font-size: 52px;
+    transform: rotate(calc(var(--index) * -30deg));
 }
