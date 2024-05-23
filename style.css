@@ -44,11 +44,12 @@ body {
     width: 2px;
     height: 12px;
     background: #0ef;
+    border-radius: 2px;
+    box-shadow: 0 0 10px #0ef;
 }
 
 /* 5n = every multiple of 5 */
 .bar-seconds span:nth-child(5n) p {
-    background: red;
     width: 6px;
     height: 18px;
     transform: translateY(1px);
@@ -93,8 +94,6 @@ body {
 .hands-box .hours {
     width: 320px;
     height: 320px;
-    transform: rotate(40deg);
-
 }
 
 .hands-box .hours i {
@@ -107,8 +106,6 @@ body {
 .hands-box .minutes {
     width: 450px;
     height: 450px;
-    transform: rotate(230deg);
-
 }
 
 /* center dot bottom */
@@ -134,8 +131,6 @@ body {
 .hands-box .seconds {
     width: 480px;
     height: 480px;
-    transform: rotate(160deg);
-
 }
 
 .hands-box .seconds::before {
