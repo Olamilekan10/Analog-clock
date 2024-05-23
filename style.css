@@ -87,7 +87,11 @@ body {
 
 /* center dot bottom */
 .hands-box .minutes::before {
-    
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #0ef;
 }
 
 .hands-box .minutes i {
