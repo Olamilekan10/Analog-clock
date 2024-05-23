@@ -56,6 +56,9 @@ body {
 .hands-box .hand {
     position: absolute;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .hands-box .hand i {
@@ -73,6 +76,7 @@ body {
     /* half of parent height */
     height: 160px;
     background: red;
+    
 }
 
 .hands-box .minutes {
