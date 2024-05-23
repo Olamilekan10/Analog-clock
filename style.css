@@ -76,7 +76,7 @@ body {
     /* half of parent height */
     height: 160px;
     background: red;
-    
+    transform: rotate(30deg);
 }
 
 .hands-box .minutes {
