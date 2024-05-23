@@ -31,6 +31,14 @@ body {
     border-radius: 50%;
 }
 
+.bar-seconds span {
+    position: absolute;
+    /* 360deg / 60 = 6deg */
+    transform: rotate(calc(var(--index) * 6deg));
+    inset: -20px;
+    text-align: center;
+}
+
 .bar-seconds span p {
     display: inline-block;
     width: 2px;
