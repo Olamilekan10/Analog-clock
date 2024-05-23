@@ -25,3 +25,20 @@ barSeconds.insertAdjacentHTML('afterbegin', barElement.join(""));
 const handHours = document.querySelector('.hand.hours');
 const handMinutes = document.querySelector('.hand.minutes');
 const handSeconds = document.querySelector('.hand.seconds');
+
+const getCurrentTime = () => { 
+    let date = new Date();
+    let currentHours = date.getHours();
+    let currentMinutes = date.getMinutes();
+    let currentSeconds = date.getSeconds();
+
+    handHours.style.transform = `rotate(${currentHours * 30 + currentMinutes / 2}deg)`;
+    handMinutes.style.transform = `rotate(${currentMinutes * 6}deg)`;
+    handSeconds.style.transform = `rotate(${currentSeconds * 6}deg)`;
+}
+
+//call getCurrentTime function onload of the page
+getCurrentTime();
+
+//call getCurrentTime to set clock hands every second
+setInterval(getCurrentTime, 1000); //1000ms = 1s
