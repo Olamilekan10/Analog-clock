@@ -42,3 +42,7 @@ getCurrentTime();
 
 //call getCurrentTime to set clock hands every second
 setInterval(getCurrentTime, 1000); //1000ms = 1s
+
+
+
+// code with Absidycode
