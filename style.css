@@ -63,6 +63,8 @@ body {
 
 .hands-box .hand i {
     display: inline-block;
+    transform-origin: bottom;
+    border-radius: 50%;
 }
 
 .hands-box .hours {
@@ -90,6 +92,7 @@ body {
     /* half of parent height */
     height: 225px;
     background: yellow;
+    transform: rotate(210deg);
 }
 
 .hands-box .seconds {
@@ -103,4 +106,5 @@ body {
     /* half of parent height */
     height: 240px;
     background: white;
+    transform: rotate(150deg);
 }
