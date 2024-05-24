@@ -178,4 +178,17 @@ body {
         width: 1.5px;
         height: 10px;
     }
+    .hands-box .hours {
+        width: 300px;
+        height: 300px;
+    }
+    .hands-box .minutes {
+        width: 330px;
+        height: 330px;
+    }
+    .hands-box .seconds {
+        width: 400px;
+        height: 400px;
+    }
+    
 }
