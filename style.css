@@ -163,8 +163,8 @@ body {
 
 @media (max-width: 767px) {
     .wrapper {
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
         overflow: hidden;
     }
     .bar-seconds,
@@ -173,5 +173,9 @@ body {
         width: 80%;
         height: 80%;
         border-radius: 50%;
+    }
+    .bar-seconds span p {
+        width: 1.5px;
+        height: 10px;
     }
 }
